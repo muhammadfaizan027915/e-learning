@@ -1,0 +1,8 @@
+.course-detial{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 70px 15%;
+    background-color: var(--bs-gray-100);
+}

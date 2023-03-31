@@ -1,0 +1,37 @@
+.coursetabs-container{
+    width: 65%;
+}
+
+.tablist{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.tablist .tab{
+    font-size: var(--bs-body-font-size);
+    padding: 13px 40px ;
+    background-color: var(--bs-white);
+    border: 1px solid var(--bs-gray-200);
+    color: var(--bs-gray-800);
+    cursor: pointer;
+
+    transition: all 0.2s linear;
+}
+
+.tab:hover, .tablist .selected-tab{
+    background-color: var(--bs-orange);
+    color: white;
+}
+
+.selected-tab {
+    border: none;
+    outline: none;
+}
+
+.tabpanel{
+    background-color: var(--bs-white);
+} 

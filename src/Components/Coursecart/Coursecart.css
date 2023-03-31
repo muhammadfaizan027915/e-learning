@@ -1,0 +1,72 @@
+.coursecart{
+    width: 100%;
+    padding: 100px 15%;
+    text-align: center;
+    background-color: var(--bs-white);
+    
+}
+
+.cart{
+    border-radius: 5px;
+    border: 1px solid var(--bs-gray-300);
+    overflow: hidden;
+}
+
+.cart table{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    font-family: var(--bs-rubikfont);
+}
+
+.cart thead th{
+    width: 16%;
+    height: 40px;
+    padding: 20px;
+    color: var(--bs-gray-700);
+    border-bottom: 1px solid var(--bs-gray-300);
+
+}
+
+.cart tbody td{
+    padding: 10px;
+    height: 70px;
+    font-size: var(--bs-body-font-size);
+    border-bottom: 1px solid var(--bs-gray-300);
+}
+
+.cart tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.cart tbody td, tbody td a{
+    color: var(--bs-gray-800);
+}
+
+.cart tbody td a:hover{
+    color: var(--bs-orange);
+}
+
+.cart tbody td img{
+    width: auto;
+    height: inherit;
+}
+
+.totalprice-checkout, .totalprice{
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout-btn{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.checkout-btn a{
+    color: white;
+}

@@ -1,0 +1,12 @@
+/* Styling Popular courses section */
+.popularcoursessction{
+    padding: 50px 15% 80px 15%;
+    background-color: var(--bs-gray-light);
+}
+
+.popularcourses{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}

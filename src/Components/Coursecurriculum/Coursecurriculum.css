@@ -1,0 +1,84 @@
+.course-curriculum{
+    padding: 40px 0px;
+}
+
+.chapter-details{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -4px 10px var(--bs-gray-200);
+    padding: 10px 20px;
+
+}
+ 
+.chapter-details-heading h5{
+    margin: 0px;
+}
+
+.chapter-section-count p{
+    color: var(--bs-gray-600);
+}
+
+.chapter-sections{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px 20px;
+}
+
+.chapter-sections a, .chapter-sections a .curriculum-left{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--bs-gray-700);
+}
+
+.chapter-sections a{
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--bs-gray-200);
+}
+
+.chapter-sections a:last-child{
+    border-bottom: none;
+}
+
+.curriculum-left .play-icon{
+    margin: 0px 20px ;
+    height: 40px;
+    width: 40px;
+    color: var(--bs-orange);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px var(--bs-gray-400);
+}
+
+.chapter-sections a:hover .play-icon{
+    animation: playHoverEffect 1s infinite linear;
+}
+
+@keyframes playHoverEffect {
+    
+    0%{
+        box-shadow: 0px 0px var(--bs-orange);
+    }
+
+    25%{
+        box-shadow0px: 70px 70px var(--bs-orange)
+    }
+
+    50%{
+        box-shadow0px: 80px 80px var(--bs-orange)
+    }
+
+    75%{
+        box-shadow0px: 90px 90px var(--bs-orange)
+    }
+
+    100%{
+        box-shadow0px: 100px 100px var(--bs-orange)
+    }
+}

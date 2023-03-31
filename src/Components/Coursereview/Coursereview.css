@@ -1,0 +1,59 @@
+.course-review{
+    border-bottom: 1px solid var(--bs-gray-300);
+}
+
+.course-review:last-child{
+    border: none;
+}
+
+.course-review h4{
+    margin: 10px 0px;
+}
+
+.course-review .course-rating i{
+    color: var(--bs-orange);
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+.course-review .course-comment p{
+    color: var(--bs-gray-700);
+}
+
+.comment-report p{
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+    color: var(--bs-orange);
+}
+
+.comment-report ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.comment-report ul li label{
+    width: 30px;
+    height: 30px;
+    display: block;
+    font-size: 15px;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: var(--bs-gray-800);
+    border: 1px solid var(--bs-gray-400);
+    cursor: pointer;
+}
+
+.comment-report ul li input{
+    display: none;
+}
+
+.comment-report ul li input[type='radio']:checked ~ label{
+    border-color: var(--bs-orange);
+    color: var(--bs-orange);
+}

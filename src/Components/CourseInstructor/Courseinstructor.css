@@ -1,0 +1,55 @@
+.courseinstructor{
+    width: 100%;
+    padding: 40px;
+}
+
+.instructor-details {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.instructor-details h2{
+    margin: 0px;
+}
+
+.instructor-details p{
+    color: var(--bs-gray-700);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.instructor-image-rating{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.instructor-image-rating .image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.rating ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.rating ul li{
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
+.rating ul li i{
+    margin-right: 10px;
+    color: var(--bs-orange);
+}

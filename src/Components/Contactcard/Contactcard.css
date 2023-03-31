@@ -1,0 +1,16 @@
+.contactcad{
+    width: 32%;
+    height: 220px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 25px var(--bs-gray-200);
+}
+
+.contacticon i{
+    color: var(--bs-orange);
+    font-size: 60px;
+}

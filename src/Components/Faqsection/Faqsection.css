@@ -1,0 +1,33 @@
+.faqsection{
+    width: 100%;
+    padding: 100px 15%;
+}
+
+.faqcontainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.faqcontainer h1{
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: var(--bs-nunitofont);
+}
+
+.faq-right, .faq-left{
+    width: 50%;
+    height: 550px;
+    padding: 50px 45px;
+}
+
+.faq-left{
+    background-color: var(--bs-gray-light);
+}
+
+.faq-right{
+    background: url(../../Assets/Images/faqimage.jpg)  no-repeat ;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,61 @@
+.faqaccordcontainer, .faqaccord{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    
+}
+
+.question{
+    margin-bottom: 30px;
+    box-shadow: 0px 6px 10px var(--bs-gray-200);
+}
+
+.question label{
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: relative;
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+    padding: 20px 30px;
+}
+
+.question i{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    font-size: 14px;
+}
+
+.question input[type = 'radio']{
+    display: none;
+}
+
+.answer{
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+    overflow: hidden;
+    width: inherit;
+    height: 0px;
+    font-size: 0.8rem;
+    
+}
+
+.question input + label i{
+    transform: rotate(180deg);
+}
+
+.question input:checked + label{
+    background-color: var(--bs-orange);
+    color: var(--bs-white);
+}
+
+.question input:checked + label i{
+    transform: rotate(0deg);
+}
+
+.question input:checked ~ .answer{
+    height: fit-content;
+    padding: 20px;
+}

@@ -1,0 +1,88 @@
+.foot-logo, .footer{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--bs-gray);
+    padding: 150px 15% 50px 15%;
+    font-family: var(--bs-nunitofont);
+    overflow-x: hidden;
+}
+
+.footer hr{
+    border: 1px solid var(--bs-gray-700);
+}
+
+.footer-content, .copyright{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content{
+    margin-bottom: 100px;
+}
+
+.footer-content a, .copyright a, .footer-content, .foot-copyright{
+    color: white;
+}
+
+.foot-logo, .foot-address, .foot-links, .foot-catagories{
+    width: 25%;
+}
+
+.foot-logo img{
+    width: 170px;
+    height: auto;
+}
+
+.foot-logo .social-icons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.footer h5{
+    margin-top: 0px;
+    display: inline-block;
+    border-bottom: 2px solid var(--bs-orange);
+}
+
+.foot-logo .social-icons, .foot-address .address{
+    list-style: none;
+    padding:0px;
+    font-size: 0.8rem;
+}
+
+.foot-address .address li{
+    margin-bottom: 15px;
+}
+
+.address li i{
+    color: var(--bs-orange);
+    font-size: 1rem;
+}
+
+.address li p, .address li a {
+    display: inline;
+    margin-left: 5px;
+}
+
+.foot-catagories{
+    width: fit-content;
+}
+
+.foot-quicklinks ul, .foot-catagories ul{
+    padding-left: 15px;
+    margin: 0px
+}
+
+.copyright p{
+    display: inline;
+}

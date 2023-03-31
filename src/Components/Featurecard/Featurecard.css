@@ -1,0 +1,33 @@
+.feature{
+    width: 370px;
+    padding: 20px;
+    color: var(--bs-white);
+    background-color: var(--bs-dark);
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+    transition: transform 0.2s linear;
+}
+
+.feature:hover{
+    transform: translateY(-7px);
+}
+
+.ft-image img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.ft-content h4{
+    font-family: var(--bs-nunitofont);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ft-content p{
+    margin-top: 7px;
+    font-size: 12px;
+}

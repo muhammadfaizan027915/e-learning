@@ -1,0 +1,37 @@
+.course-overview{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: fit-content;
+    padding: 40px;
+}
+
+.course-overview > h3, .course-overview p, .course-overview ul{
+    margin: 0px;
+    margin-bottom: 15px;
+    line-height: var(--bs-body-line-height);
+    width: 100%;
+    height: auto;
+}
+
+.course-overview p{
+    color: var(--bs-gray-700);
+}
+
+.course-overview ul{
+    position: relative;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.course-overview ul li::before{
+    position: absolute;
+    content: "\f101";
+    left: 3px;
+    color:  var(--bs-orange);
+    font-size: 14px;
+    line-height: 1em;
+    font-family: "FontAwesome";
+
+}
+

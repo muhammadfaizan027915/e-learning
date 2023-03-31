@@ -1,0 +1,15 @@
+.courses-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+
+.allcourses{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 80%;
+}

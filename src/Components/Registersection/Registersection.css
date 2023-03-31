@@ -1,0 +1,39 @@
+/* Registration Section Styling */
+
+.registerseciton{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* Left, Right parts styling */
+.reg-left, .reg-right{
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 7% 4% 7% 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Setting fonts of the section content */
+.reg-btn, .reg-left, .reg-right{
+    color: var(--bs-white);
+    font-family: var(--bs-nunitofont);
+}
+
+/* Setting left, right backgrounds */
+.reg-left{
+    background-image: url(../../Assets/Images/registerback2.jpg);
+}
+
+.reg-right{
+    background-image: url(../../Assets/Images/registerback1.jpg);
+}
+
+.reg-right p{
+    padding-right: 30%;
+    font-size: 1rem;
+}
